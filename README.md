@@ -1,4 +1,4 @@
-# My-scripts-of-recon
+# My-scripts-of-recon and tinkering
 just experimenting and doing recon on my phone with termux.
 
 "BASIC RECON"
