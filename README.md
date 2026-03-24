@@ -1,5 +1,7 @@
 # My-scripts-of-recon and tinkering
-just experimenting and doing recon on my phone with termux.
+just experimenting and doing recon (and pretty much everything) on my phone with termux.
+
+FIRST OF ALL, YOU MUST USE ("pkg update && pkg upgrade -y", so you have every tool up to date)
 
 "BASIC RECON"
 curl -s https://www.google.com/robots.txt | grep "Disallow" > google.txt
@@ -22,6 +24,9 @@ nmap (example IP)/24
 proot-distro login debian
 or
 proot-distro login Ubuntu 
+!!VERY IMPORTANT!!
+(ON PROOT, YOU DO NOT USE PKG, YOU WILL RATHER USE APT) 
+Example, (apt update && apt upgrade) instead of pkg, also applies with install.
 
 "HOW TO TRY TO TRICK CLOUDFLARE WITH CURL (NOT GUARANTEED)"
 "USER-AGENT"
