@@ -13,7 +13,9 @@ timeout 60s waybackurls tesla.com > tesla_total.txt
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 "NETWORK RECON (NO NEED OF ROOT, AT MOST JUST PROOT)"
+
 nmap localhost (you can use --unprivileged)
+
 nmap (example IP)/24
 
 "THE PLACES I USUALLY USE ON TERMUX"
