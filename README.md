@@ -29,6 +29,16 @@ proot-distro login Ubuntu
 (ON PROOT, YOU DO NOT USE PKG, YOU WILL RATHER USE APT) 
 Example, (apt update && apt upgrade) instead of pkg, also applies with install.
 
+"TESTING AND BENCHMARKS"
+(single-thread with sysbench)
+sysbench cpu --cpu-max-prime=10000 run
+(multi-thread, insert the amount of threads your hardware has, for example mine is 8)
+
+sysbench cpu --cpu-max-prime=10000 --threads=8 run
+(you can also use John in order to see how good is your device at cracking passwords by dictionary and brute force) Example;
+
+john --test
+
 "HOW TO TRY TO TRICK CLOUDFLARE WITH CURL (NOT GUARANTEED)"
 "USER-AGENT"
 curl -s -L -A "Mozilla/5.0 ..." https://www.carsdirect.com/robots.txt | grep -i disallow
