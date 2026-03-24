@@ -24,6 +24,7 @@ nmap (example IP)/24
 proot-distro login debian
 or
 proot-distro login Ubuntu 
+
 !!VERY IMPORTANT!!
 (ON PROOT, YOU DO NOT USE PKG, YOU WILL RATHER USE APT) 
 Example, (apt update && apt upgrade) instead of pkg, also applies with install.
