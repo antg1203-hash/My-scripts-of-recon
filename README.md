@@ -32,6 +32,7 @@ Example, (apt update && apt upgrade) instead of pkg, also applies with install.
 "TESTING AND BENCHMARKS"
 
 (single-thread with sysbench)
+
 sysbench cpu --cpu-max-prime=10000 run
 
 (multi-thread, insert the amount of threads your hardware has, for example mine is 8)
