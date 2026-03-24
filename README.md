@@ -30,11 +30,14 @@ proot-distro login Ubuntu
 Example, (apt update && apt upgrade) instead of pkg, also applies with install.
 
 "TESTING AND BENCHMARKS"
+
 (single-thread with sysbench)
 sysbench cpu --cpu-max-prime=10000 run
+
 (multi-thread, insert the amount of threads your hardware has, for example mine is 8)
 
 sysbench cpu --cpu-max-prime=10000 --threads=8 run
+
 (you can also use John in order to see how good is your device at cracking passwords by dictionary and brute force) Example;
 
 john --test
