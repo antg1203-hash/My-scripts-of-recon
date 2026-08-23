@@ -225,3 +225,6 @@ driver.quit()
 - These techniques are for educational and authorized testing purposes only
 - Always ensure you have permission before performing recon on any target
 - Cloudflare bypass methods may not work reliably and are constantly being updated
+
+
+find . -maxdepth 2 -type f | sort
